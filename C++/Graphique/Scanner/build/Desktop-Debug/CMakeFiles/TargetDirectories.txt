@@ -1,0 +1,9 @@
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/Scanner.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/install.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/Scanner_autogen_timestamp_deps.dir
+/home/zerokirai/Scanner/build/Desktop-Debug/CMakeFiles/Scanner_autogen.dir
