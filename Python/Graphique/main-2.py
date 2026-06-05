@@ -6,28 +6,30 @@ import Scanneur
 def valider() :
     if(choixCombo.get() == "Host discovery") :
         ip = ipEntry.get()
-        message = " Resultat : \n" + scan.decouverte_hostes(ip)
-        resultLabel.config(text=message)
+        message = " Resultat : \n" + str(scan.decouverte_hostes(ip))
+        resultLabel.config(text=message, justify="left", anchor="w")
     
     elif(choixCombo.get() == "Service scan") :
         ip = ipEntry.get()
-        message = " Resultat : \n" + scan.detection_services(ip)
-        resultLabel.config(text=message)
+        message = " Resultat : \n" + str(scan.detection_services(ip))
+        #resultLabel.config(text=message)
+        resultLabel.config(text=message, justify="left", anchor="w")
+
     
     elif(choixCombo.get() == "OS detection") :
         ip = ipEntry.get()
-        message = " Resultat : \n" + scan.detection_os(ip)
-        resultLabel.config(text=message)
+        message = " Resultat : \n" + str(scan.detection_os(ip))
+        resultLabel.config(text=message, justify="left", anchor="nw", wraplength=740)
     
     
     elif(choixCombo.get() == "SYN scan") :
         ip = ipEntry.get()
-        message = " Resultat : \n" + scan.scan_syn(ip)
-        resultLabel.config(text=message)
+        message = " Resultat : \n" + str(scan.scan_syn(ip))
+        resultLabel.config(text=message, justify="left", anchor="w")
     
     else :
         message = " Resultat : Choix invalide \n"
-        resultLabel.config(text=message)
+        resultLabel.config(text=message, justify="left", anchor="w")
 
 
 def reinit() :
